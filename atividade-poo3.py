@@ -19,6 +19,7 @@ class Product:
         return self._price
 
     #setter
+    @price.setter
     def price(self, value):
         if isinstance(value, str):
             try:
