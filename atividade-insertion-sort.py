@@ -13,7 +13,7 @@ def insertionSort(list):
 
 
 lista = []
-for _, i in enumerate(range(30)):
+for _ in range(30):
     lista.append(random.randint(1, 999))
 
 print(lista)
